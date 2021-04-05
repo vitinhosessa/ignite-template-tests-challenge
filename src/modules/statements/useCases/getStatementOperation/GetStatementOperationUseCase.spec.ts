@@ -52,7 +52,6 @@ describe("Get Balance", () => {
       user_id,
       statement_id
     })
-    console.log("resultStatement --->", resultStatement)
 
     expect(resultStatement).toHaveProperty("id")
     expect(resultStatement.id).toEqual(statement_id)
